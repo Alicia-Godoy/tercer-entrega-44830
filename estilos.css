@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2? family= Chicle & family= Oswald:wght@200;400;500 & family= PT+Serif:ital,wght@0,400;1,400; 1,700 & family= Raleway:ital,wght@1,100;1,200;1,400 & family= Roboto:ital,wght@0,100;0,300;0,400;0,500;1,500 & display=swap');
+/* font-family: 'Chicle', cursive; */
+/* familia tipográfica: 'Roboto', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: rgb(238, 54, 183);
+}
+.navbar-brand{
+    color: rgb(79, 243, 216) !important;
+    text-shadow: 0 0 5px black;
+}
+.jumbotron{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(./images/fondo.jpg);
+    background-size: cover;
+    height: 550px;
+    background-position: center;
+    color: rgb(79, 243, 216);
+    text-shadow: 0 0 3px rgb(73, 68, 68);
+    letter-spacing: 3px;
+    margin: 0;
+}
+h1, .jumbotron p{
+    font-family: 'Chicle', cursive;
+}
+.jumbotron button{
+    font-weight: bold;
+}
+h3{
+    background-color: black;
+    color: rgb(79, 243, 216);
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+.nleft{
+    padding: 20px;
+}
+.nleft h4{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+.nleft h4::after{
+    content: "😁";
+}
+.nleft p{
+    text-align: justify;
+    padding: 15px;
+}
+.nleft button{
+    border: 2px solid black;
+}
+.nright{
+    height: 450px;
+    background-image: url(./images/perno-y-corona_servicios.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.ser{
+    height: 300px;
+    border: 2px solid black;
+}
+.ser h4{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+}
+.ser img{
+    height: 100px;
+}
+.ser p::selection{
+    background-color: rgb(238, 54, 183);
+    color: rgb(79, 243, 216);
+}
+.ser p::first-letter{
+    color: rgb(79, 243, 216);
+    font-style: 25px;
+    text-shadow: 0 0 5px #000;
+}
+.ser p::first-line{
+    color: rgb(238, 54, 183);
+}
+.sec{
+    width: 100%;
+}
+.carousel-indicator li{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid green;
+}
+footer{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    background-color:  rgb(238, 54, 183);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(./images/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    color: rgb(79, 243, 216);
+    box-shadow: inset 0 0 5px 2px rgb(79, 243, 216);
+    padding: 20px;
+}
+footer a{
+    color: fff;
+}
+footer a:hover{
+    color: rgb(238, 54, 183);
+}
+footer a:active{
+    color: violet;
+}
+footer i{
+    letter-spacing: 10px;
+    font-size: 50px;
+}
+.what{
+    height: 60px;
+    widows: 60px;
+    background-color: green;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    font-size: 45px;
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #000;
+}
+.what i{
+    line-height: 60px;
+    text-align: center;
+    
+}
